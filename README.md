@@ -1,6 +1,24 @@
 # NumGuess
 
-This is a NumGuess Game that I'm currently working on.
+This is a NumGuess Game that I've crafted as part of my JavaScript learning journey.
+
+## Overview
+
+It is a simple game where the user has to guess a number between 1 and 100. The game will tell the user if the number they guessed is too high or too low. The user has 10 chances to guess the correct number. If the user guesses the correct number within 10 chances, they win the game. If the user is unable to guess the correct number within 10 chances, they lose the game.
+
+## How to Play
+
+1. Enter a number between 1 and 100 in the input field.
+
+2. Click on the `Submit Guess` button.
+
+3. The game will tell you if the number you guessed is too high or too low.
+
+4. Keep guessing until you guess the correct number or run out of chances.
+
+5. If you guess the correct number within 10 chances, you win the game.
+
+6. If you are unable to guess the correct number within 10 chances, you lose the game.
 
 ## Installation
 
@@ -13,7 +31,7 @@ To start playing the NumGuess game, follow these steps:
 ```
 2. Open the `index.html` file in your web browser.
 
-3. Alternatively, you can view a live demo of the ToDoList here(Will be added soon).
+3. Alternatively, you can view a live demo of the NumGuess [here](https://sh1v4nk.github.io/NumGuess/).
 
 ## Technologies Used
 
@@ -21,17 +39,19 @@ To start playing the NumGuess game, follow these steps:
 - CSS
 - JavaScript
 
+## Screenshots
+
+<div align="center">
+    <img src="https://i.ibb.co/NZ6wVNP/image.png" alt="NumGuess Game" />
+</div>
+
 ## Contributing
 
 Contributions are welcome! Please submit a pull request with any changes.
 
 ---
 
-### Note
-
-> This project is a work in progress and the JavaScript code is not uploaded yet. I'm actively working on completing the functionality. Feel free to check back later for updates. Thank you for your interest!
-
-If you have any suggestions or feedback, feel free to reach out to me.
+If you have any suggestions or feedback, feel free to reach out to me. I appreciate any input that can help me improve this project.
 
 Connect with me:
 
