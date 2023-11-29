@@ -2,6 +2,15 @@
 
 This is a NumGuess Game that I've crafted as part of my JavaScript learning journey.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [How to Play](#how-to-play)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+
 ## Overview
 
 It is a simple game where the user has to guess a number between 1 and 100. The game will tell the user if the number they guessed is too high or too low. The user has 10 chances to guess the correct number. If the user guesses the correct number within 10 chances, they win the game. If the user is unable to guess the correct number within 10 chances, they lose the game.
