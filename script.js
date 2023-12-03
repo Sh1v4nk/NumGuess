@@ -4,7 +4,15 @@ const preGuess = document.querySelector(".guesses");
 const result = document.querySelector(".result");
 const submitButton = document.querySelector(".submit-btn");
 
-const randomNumber = parseInt(Math.random() * 100 + 1);
+function generateRandomNumber() {
+  return parseInt(Math.random() * 100 + 1);
+}
+
+let randomNumber = generateRandomNumber();
+
+const h2 = document.createElement("h2");
+h2.classList.add("alerts");
+const resultSection = document.querySelector(".result-section");
 
 let attempts = 10;
 let previousGuesses = [];
@@ -19,10 +27,21 @@ if (playGame) {
   });
 }
 
+function changeUi(message, backgroundColor) {
+  h2.innerHTML = message;
+  h2.style.backgroundColor = backgroundColor;
+  resultSection.appendChild(h2);
+}
+
 function validateGuess(guess) {
   if (isNaN(guess) || guess < 1 || guess > 100) {
-    alert("Please enter a valid number between 1 and 100.");
+    changeUi("Please enter a valid number between 1 and 100.", "");
+    resultSection.appendChild(h2);
+    guessField.value = "";
   } else {
+    if (resultSection.contains(h2)) {
+      resultSection.removeChild(h2);
+    }
     attempts--;
     checkGuess(guess);
   }
@@ -39,22 +58,23 @@ function checkGuess(guess) {
     playGame = false;
     resetGame();
   } else if (attempts === 0) {
-    alert("Sorry You Lose!");
+    changeUi(`Game Over! The number was ${randomNumber}`, "");
     playGame = false;
-    attemptsDone.textContent = "10";
     resetGame();
   } else if (guess < randomNumber) {
-    alert("Number is Too low!");
+    changeUi("Number is Too low!", "");
   } else if (guess > randomNumber) {
-    alert("Number is Too high!");
+    changeUi("Number is Too high!", "");
   }
 }
 
 function resetGame() {
   attempts = 10;
+  attemptsDone.textContent = "10";
   previousGuesses = [];
   attemptsDone.textContent = attempts;
   preGuess.textContent = "None";
   guessField.value = "";
+  randomNumber = generateRandomNumber();
   playGame = true;
 }
