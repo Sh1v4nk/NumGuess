@@ -12,7 +12,6 @@ let randomNumber = generateRandomNumber();
 
 const h2 = document.createElement("h2");
 h2.classList.add("alerts");
-const resultSection = document.querySelector(".result-section");
 
 let attempts = 10;
 let previousGuesses = [];
@@ -30,17 +29,16 @@ if (playGame) {
 function changeUi(message, backgroundColor) {
   h2.innerHTML = message;
   h2.style.backgroundColor = backgroundColor;
-  resultSection.appendChild(h2);
+  submitButton.parentNode.insertBefore(h2, submitButton);
 }
 
 function validateGuess(guess) {
   if (isNaN(guess) || guess < 1 || guess > 100) {
     changeUi("Please enter a valid number between 1 and 100.", "");
-    resultSection.appendChild(h2);
     guessField.value = "";
   } else {
-    if (resultSection.contains(h2)) {
-      resultSection.removeChild(h2);
+    if (document.querySelector(".game-container").contains(h2)) {
+      h2.parentNode.removeChild(h2);
     }
     attempts--;
     checkGuess(guess);
@@ -54,7 +52,7 @@ function checkGuess(guess) {
   guessField.value = "";
 
   if (guess === randomNumber) {
-    alert("Congrats! You got it right!");
+    changeUi(`Congrats! You got it right!`, "green");
     playGame = false;
     resetGame();
   } else if (attempts === 0) {
@@ -72,7 +70,6 @@ function resetGame() {
   attempts = 10;
   attemptsDone.textContent = "10";
   previousGuesses = [];
-  attemptsDone.textContent = attempts;
   preGuess.textContent = "None";
   guessField.value = "";
   randomNumber = generateRandomNumber();
