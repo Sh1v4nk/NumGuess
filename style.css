@@ -43,13 +43,13 @@ body {
 
 h1 {
   font-size: 2em;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   color: var(--accent-color);
 }
 
 .instructions-section p {
   color: var(--text-color);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .game-container {
@@ -62,15 +62,15 @@ label {
   display: block;
   font-size: 1.1em;
   font-weight: 600;
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
   color: var(--accent-color);
 }
 
 input {
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 1em;
   width: 80%;
-  border: .7px solid var(--accent-color); 
+  border: 0.7px solid var(--accent-color);
   border-radius: 4px;
   background-color: var(--text-color);
   color: var(--bg-color);
@@ -78,7 +78,7 @@ input {
 
 .submit-btn {
   margin: 1rem 0;
-  padding: .5rem 1.2rem;
+  padding: 0.5rem 1.2rem;
   font-size: 1em;
   background-color: var(--accent-color);
   color: var(--text-color);
@@ -96,17 +96,28 @@ input {
   color: var(--text-color);
 }
 
-.answer{
+.answer {
   display: none;
+  margin-top: 0.5;
 }
 
 .attempts {
   color: #aaa;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
-.guesses{
+.guesses {
   background-color: #aaaaaa5a;
-  padding: .2rem;
+  padding: 0.2rem;
   border-radius: 6px;
+}
+
+.alerts {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  background-color: #ff2400;
+  border-radius: 2.5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
