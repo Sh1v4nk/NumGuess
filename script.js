@@ -29,7 +29,7 @@ if (playGame) {
 function changeUi(message, backgroundColor) {
   h2.innerHTML = message;
   h2.style.backgroundColor = backgroundColor;
-  submitButton.parentNode.insertBefore(h2, submitButton);
+  guessField.parentNode.insertBefore(h2, guessField);
 }
 
 function validateGuess(guess) {
