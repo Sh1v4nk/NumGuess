@@ -40,7 +40,7 @@ To start playing the NumGuess game, follow these steps:
 ```
 2. Open the `index.html` file in your web browser.
 
-3. Alternatively, you can view a live demo of the NumGuess [here](https://sh1v4nk.github.io/NumGuess/).
+3. Alternatively, you can view a live demo of the [NumGuess](https://sh1v4nk.github.io/NumGuess/).
 
 ## Technologies Used
 
