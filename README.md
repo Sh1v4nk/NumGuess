@@ -56,7 +56,7 @@ To start playing the NumGuess game, follow these steps:
 
 ## Contributing
 
-Contributions are welcome! Please submit a pull request with any changes. Please follow these steps:
+Contributions are welcome! Submit your changes via a pull request. Please follow these steps :
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
