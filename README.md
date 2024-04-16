@@ -11,11 +11,11 @@ This is a NumGuess Game that I've crafted as part of my JavaScript learning jour
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 
-## Overview
+## 🎮 Overview
 
 It is a simple game where the user has to guess a number between 1 and 100. The game will tell the user if the number they guessed is too high or too low. The user has 10 chances to guess the correct number. If the user guesses the correct number within 10 chances, they win the game. If the user is unable to guess the correct number within 10 chances, they lose the game.
 
-## How to Play
+## 🕹️ How to Play
 
 1. Enter a number between 1 and 100 in the input field.
 
@@ -29,7 +29,7 @@ It is a simple game where the user has to guess a number between 1 and 100. The 
 
 6. If you are unable to guess the correct number within 10 chances, you lose the game.
 
-## Installation
+## 🛠️ Installation
 
 To start playing the NumGuess game, follow these steps:
 
@@ -42,19 +42,19 @@ To start playing the NumGuess game, follow these steps:
 
 3. Alternatively, you can view a live demo of the [NumGuess](https://sh1v4nk.github.io/NumGuess/).
 
-## Technologies Used
+## 💻 Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-## Screenshots
+## 📸 Screenshots
 
 <div align="center">
     <img src="https://i.ibb.co/NZ6wVNP/image.png" alt="NumGuess Game" />
 </div>
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Submit your changes via a pull request. Please follow these steps :
 
