@@ -38,12 +38,13 @@ To start playing the NumGuess game, follow these steps:
 ```bash
  git clone https://github.com/Sh1v4nk/NumGuess.git
 ```
+2. Navigate into the project directory:
 ```
  cd NumGuess
 ```
-2. Open the `index.html` file in your web browser.
+3. Open the `index.html` file in your web browser.
 
-3. Alternatively, you can view a live demo of the [NumGuess](https://sh1v4nk.github.io/NumGuess/).
+4. Alternatively, you can view a live demo of the [NumGuess](https://sh1v4nk.github.io/NumGuess/).
 
 ## Technologies Used
 
