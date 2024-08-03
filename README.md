@@ -49,7 +49,7 @@ To start playing the NumGuess game, follow these steps:
 ## Technologies Used
 
 - HTML
-- CSS
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Screenshots
