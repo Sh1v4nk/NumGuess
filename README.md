@@ -50,7 +50,7 @@ To start playing the NumGuess game, follow these steps:
 
 - HTML
 - CSS
-- JavaScript
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Screenshots
 
