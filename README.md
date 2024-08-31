@@ -1,6 +1,11 @@
+<div align="center">
+
 # NumGuess
 
 This is a NumGuess Game that I've crafted as part of my JavaScript learning journey.
+
+</div>
+
 
 ## Table of Contents
 
